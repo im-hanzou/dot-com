@@ -30,7 +30,6 @@ $banner = "
     _.                      : 
                                 {$reset}";
 echo "$banner\n";
-
 function scraping($start, $until) {
     global $hijau, $cyan, $merah, $kuning, $reset;
     $out_file = fopen('{$start}-{$until}_domain.txt', 'w');
